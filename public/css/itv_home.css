@@ -1,0 +1,37 @@
+.top{
+	margin-top: 100px;
+}
+
+@media (max-width: 767.98px) {
+	.top{
+		margin-top: 80px;
+	}
+
+	.container{
+		text-align: center;
+	}
+
+	.gap{
+		margin-top: 40px;
+	}
+
+	.footer{
+		text-align: left!important;
+	}
+}
+
+.sponsor-box{
+	padding: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+@media(max-width: 425px){
+	
+	h1{
+		font-size: 2em;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+}	

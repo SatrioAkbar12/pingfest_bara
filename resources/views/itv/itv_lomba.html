@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../Aset/css/bootstrap.css">
+    <link rel="stylesheet" href="../../Aset/css/style.css">
+    <title>Pingpes</title>
+  </head>
+
+  <!-- This is Navbar -->
+  <body class="bg">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top trn" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+         <img src="../../Image/pingfest-transparent.png" class="d-inline-block align-top" alt="" loading="lazy"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"> 
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Page/IT-Venture/itv_home.html">IT-Venture</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="Page/Seminar/seminar_home.html">Seminar</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="#">Logout</a>
+            </li>
+    	     </ul>
+      	</div>
+    	</div>
+    </nav>
+
+    <!-- Profile Area -->
+    <div class="container mt-4">
+        <div class="row align-items-center id-area">
+          <div class="col-md-3 col-sm-12">
+            <img src="../../Image/avatar.png" alt="avatar" class="img-fluid">
+          </div>
+          <div class="col-md-9">
+            <table class="id-tb">
+                <tr>
+                  <div style="background-color: black;">
+                    <td stye="background-color: black;">Nama</td>
+                  </div>
+                  <div style="background-color: black;">
+                    <td>Tony Stark</td>
+                  </div>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>lalalalala@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Nomor HP</td>
+                    <td>+62xx-xxxx-xxxx</td>
+                </tr>
+                <tr>
+                    <td>Instansi</td>
+                    <td>Universitas Sebelas Maret</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+    </div>
+
+    <!-- Competition Table Area -->
+    <div class="container mt-4">
+      <div class="col-md-12 col-sm-12 mt-4">
+        <table class="lomba-tb">
+            <tr>
+              <td>Competitive Programming</td>
+              <td><button class="detail-button" data-toggle="modal" data-target="#detailLombaCP">Detail</button></td>
+              <td><button class="link-button">Link</button></td>
+            </tr>
+            <tr>
+              <td>Poster</td>
+              <td><button class="detail-button" data-toggle="modal" data-target="#detailLombaPST">Detail</button></td>
+              <td><button class="link-button" data-toggle="modal" data-target="#linkPoster">Link</button></td>
+            </tr>
+            <tr>
+              <td>Video (Tik-Tok)</td>
+              <td><button class="detail-button" data-toggle="modal" data-target="#detailLombaTT">Detail</button></td>
+              <td><button class="link-button" data-toggle="modal" data-target="#linkTT">Link</button></td>
+            </tr>
+            <tr>
+              <td>Cover Lagu</td>
+              <td><button class="detail-button" data-toggle="modal" data-target="#detailLombaCL">Detail</button></td>
+              <td><button class="link-button" data-toggle="modal" data-target="#linkCL">Link</button></td>
+            </tr>
+        </table>
+
+        <!-- POP-UP DETAIL CP -->
+        <div class="modal fade" id="detailLombaCP" role="dialog" arialabelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Detail Lomba</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                  <span aria-hidden="true"><b>&times;</b></span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="stats-popup-detail">
+                  <p>Salah satu dari empat lomba yang diadakan oleh IT-V PINGFEST 2020, yang mengajak para siswa/i aktif dengan jenjang pendidikan SMA/SMK/MA/sederajat untuk berkompetisi di bidang programming.</p>
+                </div>
+                <table class="stats-popup">
+                  <tr>
+                    <td>Nama Peserta</td>
+                    <td>Tony Stark</td>
+                  </tr>
+                  <tr>
+                    <td>Jadwal Lomba</td>
+                    <td>1-21 Juli 2099</td>
+                  </tr>
+                  <tr>
+                    <td>Status Pembayaran</td>
+                    <td><span class="stats-bayar-success">Berhasil</span></td>
+                  </tr>
+                </table>
+                <div class="stats-popup-anc">
+                  <h5>PENGUMUMAN</h5>
+                  <span>Bagi yang melanggar peraturan lomba akan dijebloskan ke penjara!</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- POP-UP DETAIL POSTER -->
+        <div class="modal fade" id="detailLombaPST" role="dialog" arialabelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Detail Lomba</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                  <span aria-hidden="true"><b>&times;</b></span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="stats-popup-detail">
+                  <p>Salah satu dari empat lomba yang diadakan oleh IT-V PINGFEST 2020, yang mengajak masyarakat umum untuk menceritakan peran teknologi saat pandemic covid-19 terjadi melalui sebuah poster dengan design sekreatif mungkin.</p>
+                </div>
+                <table class="stats-popup">
+                  <tr>
+                    <td>Nama Peserta</td>
+                    <td>Tony Stark</td>
+                  </tr>
+                  <tr>
+                    <td>Jadwal Lomba</td>
+                    <td>1-21 Juli 2099</td>
+                  </tr>
+                  <tr>
+                    <td>Status Pembayaran</td>
+                    <td><span class="stats-bayar-failed">Belum Terbayar</span></td>
+                  </tr>
+                </table>
+                <div class="stats-popup-anc">
+                  <h5>PENGUMUMAN</h5>
+                  <span>Bagi yang melanggar peraturan lomba akan dijebloskan ke penjara!</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- POP-UP DETAIL TIKTOK -->
+        <div class="modal fade" id="detailLombaTT" role="dialog" arialabelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Detail Lomba</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                  <span aria-hidden="true"><b>&times;</b></span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="stats-popup-detail">
+                  <p>Salah satu dari empat lomba yang diadakan oleh IT-V PINGFEST 2020, yang mengajak masyarakat umum untuk menceritakan peran teknologi saat pandemi covid-19 terjadi dengan cara yang kreatif dan menarik melalui platform Tiktok.</p>
+                </div>
+                <table class="stats-popup">
+                  <tr>
+                    <td>Nama Peserta</td>
+                    <td>Tony Stark</td>
+                  </tr>
+                  <tr>
+                    <td>Jadwal Lomba</td>
+                    <td>1-21 Juli 2099</td>
+                  </tr>
+                  <tr>
+                    <td>Status Pembayaran</td>
+                    <td><span class="stats-bayar-failed">Belum Terbayar</span></td>
+                  </tr>
+                </table>
+                <div class="stats-popup-anc">
+                  <h5>PENGUMUMAN</h5>
+                  <span>Bagi yang melanggar peraturan lomba akan dijebloskan ke penjara!</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- POP-UP DETAIL COVER LAGU -->
+        <div class="modal fade" id="detailLombaCL" role="dialog" arialabelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Detail Lomba</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                  <span aria-hidden="true"><b>&times;</b></span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="stats-popup-detail">
+                  <p>Salah satu dari empat lomba yang diadakan oleh IT-V PINGFEST 2020, yang mengajak masyarakat umum untuk ramai-ramai berkarya menciptakan cover lagu daerah dengan sekreatif mungkin.</p>
+                </div>
+                <table class="stats-popup">
+                  <tr>
+                    <td>Nama Peserta</td>
+                    <td>Tony Stark</td>
+                  </tr>
+                  <tr>
+                    <td>Jadwal Lomba</td>
+                    <td>1-21 Juli 2099</td>
+                  </tr>
+                  <tr>
+                    <td>Status Pembayaran</td>
+                    <td><span class="stats-bayar-failed">Belum Terbayar</span></td>
+                  </tr>
+                </table>
+                <div class="stats-popup-anc">
+                  <h5>PENGUMUMAN</h5>
+                  <span>Bagi yang melanggar peraturan lomba akan dijebloskan ke penjara!</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- POP-UP LINK POSTER-->
+    <div class="modal fade" id="linkPoster" role="dialog" arialabelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Submit link</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+              <span aria-hidden="true"><b>&times;</b></span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <input style="width: 65%;"class="input-link"type="text" id="inputLink" placeholder="Link Poster">
+              <button class="button-popup-submit" type="submit">SUBMIT</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- POP-UP LINK TIK-TOK -->
+    <div class="modal fade" id="linkTT" role="dialog" arialabelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Submit link</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+              <span aria-hidden="true"><b>&times;</b></span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <input style="width: 65%;"class="input-link"type="text" id="inputLink" placeholder="Link Akun Tik-Tok">
+              <button class="button-popup-submit" type="submit">SUBMIT</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- POP-UP LINK COVER LAGU-->
+    <div class="modal fade" id="linkCL" role="dialog" arialabelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Submit link</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+              <span aria-hidden="true"><b>&times;</b></span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <input style="width: 65%;"class="input-link"type="text" id="inputLink" placeholder="Link Cover Lagu">
+              <button class="button-popup-submit" type="submit">SUBMIT</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="footer-top bg-dark">
+        <div class="container footer ">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 footer-contact">
+              <h4>Hubungi Kami</h4>
+              <p class="contact-with-links">
+                Gedung A FMIPA UNS,<br>
+                Kecamatan Jebres,<br>
+                Kota Surakarta,<br>
+                Jawa Tengah 57126 <br>
+                <strong>Telepon</strong>: <a href="tel:+6281233814343">+62 812-3381-4343</a> (Ical)<br>
+                <span style="visibility:hidden;"><strong>Telepon</strong>: </span><a href="tel:+6282393667266">+62 823-9366-7266</a> (Ela)<br>
+                <strong>Surel</strong>: <a href="mailto:pingfest2019@gmail.com">pingfest2019@gmail.com</a><br>
+              </p>
+              <div class="social-links">
+                <a href="https://twitter.com/pingfest" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/pg/pingfest2019" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/pingfest" class="instagram"><i class="fa fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Peta</h4>
+              <div class="embed-responsive embed-responsive-21by9">
+                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d110.85813372914988!3d-7.558964770208452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a1703aead1c11%3A0x8952c6ad35b2ccba!2sGedung+A+FMIPA+UNS!5e0!3m2!1sid!2sid!4v1566205773139!5m2!1sid!2sid"></iframe>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 footer-links">
+              <h4>Quicklink</h4>
+              <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="#">IT-Venture</a></li>
+                <li><a href="#">Seminar Nasional</a></li>
+                <li><a href="#">Donasi</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>P!NGFEST UNS &copy; 2020</p> 
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+    <script>$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+        $(this).ekkoLightbox();
+    });</script>
+    
+  </body>
+</html>

@@ -1,0 +1,26 @@
+@media (max-width: 767.9px) {
+	.top{
+		margin-top: 80px;
+	}
+
+	.container{
+		text-align: center;
+	}
+
+	.footer{
+		text-align: left!important;
+	}
+}
+@media(max-width: 425px){
+	
+	h1{
+		font-size: 2em;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+}	
+
+.top{
+	padding-top: 80px;
+}

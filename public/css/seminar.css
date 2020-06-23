@@ -1,0 +1,21 @@
+.top{
+	margin-top: 80px;
+}
+
+@media (max-width: 767.98px) {
+	.top{
+		margin-top: 80px;
+	}
+
+	.container{
+		text-align: center;
+	}
+
+	.gap{
+		margin-top: 40px;
+	}
+
+	.footer{
+		text-align: left!important;
+	}
+}
